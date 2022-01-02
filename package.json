@@ -1,0 +1,33 @@
+{
+  "name": "gark-api",
+  "version": "1.0.0",
+  "description": "gark api for mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "taha jemmali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase": "^8.8.0",
+    "firebase-admin": "^9.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.13",
+    "mongoose-deep-populate": "^3.2.0",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.4.17",
+    "request": "^2.88.2",
+    "request-ip": "^2.1.3",
+    "xml2js": "^0.4.23"
+  }
+}
